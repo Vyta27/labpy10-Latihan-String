@@ -1,6 +1,6 @@
 # LATIHAN 1
 
-  txt = 'Hello World'
+    txt = 'Hello World'
   
 • Hitung jumlah karakternya
 
@@ -27,5 +27,7 @@
     ... tahun'
 
     print(txt.format(umur))
+
+  
 
 
