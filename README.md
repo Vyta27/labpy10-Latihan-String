@@ -50,8 +50,12 @@ valid. Jika tidak, tampilkan pesan error untuk setiap kesalahan.
    
 Fungsi ini menerima tiga parameter:
 
-nama: Nama lengkap yang harus berisi hanya huruf.
-nomor_telepon: Nomor telepon yang harus berisi hanya angka.
-email: Alamat email yang harus mengandung karakter @ dan ..
+- nama: Nama lengkap yang harus berisi hanya huruf.
+
+- nomor_telepon: Nomor telepon yang harus berisi hanya angka.
+
+- email: Alamat email yang harus mengandung karakter @ dan ..
 
 a.     errors = []
+
+- List kosong yang akan menyimpan pesan kesalahan validasi.
