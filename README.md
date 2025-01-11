@@ -59,3 +59,13 @@ Fungsi ini menerima tiga parameter:
 a.     errors = []
 
 - List kosong yang akan menyimpan pesan kesalahan validasi.
+
+b. Validasi Nama
+
+-         nama.replace(" ", "")       : Menghapus semua spasi di dalam nama untuk mengakomodasi nama dengan dua 
+  kata atau lebih.
+  
+-         .isalpha()    : Mengecek apakah semua karakter dalam nama adalah huruf.
+- 
+- Jika nama tidak valid, pesan kesalahan ditambahkan ke     errors.
+
