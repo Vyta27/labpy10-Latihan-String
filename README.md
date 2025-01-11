@@ -1,5 +1,7 @@
 # LATIHAN 1
-txt = 'Hello World'
+
+  txt = 'Hello World'
+  
 • Hitung jumlah karakternya
 • Ambil karakter terakhir
 • Ambil karakter index ke-2 sampai index ke-4 (llo)
