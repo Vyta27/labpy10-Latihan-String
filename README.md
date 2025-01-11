@@ -46,7 +46,7 @@ valid. Jika tidak, tampilkan pesan error untuk setiap kesalahan.
 
 ![Screenshot 2025-01-11 222019](https://github.com/user-attachments/assets/87e16306-bfb8-473d-b1b1-c89bd324e00d)
 
-1.  Fungsi     validate_form()
+1. Fungsi validate_form()
    
 Fungsi ini menerima tiga parameter:
 
@@ -62,10 +62,47 @@ a.     errors = []
 
 b. Validasi Nama
 
--         nama.replace(" ", "")       : Menghapus semua spasi di dalam nama untuk mengakomodasi nama dengan dua 
-  kata atau lebih.
+-  nama.replace(" ", ""): Menghapus semua spasi di dalam nama untuk mengakomodasi nama dengan dua 
+   kata atau lebih.
   
--         .isalpha()    : Mengecek apakah semua karakter dalam nama adalah huruf.
-- 
-- Jika nama tidak valid, pesan kesalahan ditambahkan ke     errors.
+-  .isalpha(): Mengecek apakah semua karakter dalam nama adalah huruf.
+  
+- Jika nama tidak valid, pesan kesalahan ditambahkan ke errors.
+
+c. Validasi nomor telepon
+
+- .isdigit(): Mengecek apakah semua karakter dalam nomor_telepon adalah angka.
+  
+- Jika nomor telepon mengandung karakter non-angka, pesan kesalahan ditambahkan ke errors.
+
+d. Validasi Email
+
+- Email harus mengandung simbol @ dan ..
+  
+- Jika salah satu simbol ini tidak ada, pesan kesalahan ditambahkan ke errors.
+
+e. Hasil Validasi
+
+- Jika ada kesalahan (list errors tidak kosong), semua pesan kesalahan dicetak.
+  
+- Jika tidak ada kesalahan, maka dicetak: "Data pendaftaran valid".
+
+2. Input dari pengguna
+
+- input(): Digunakan untuk menerima masukan dari pengguna untuk setiap parameter.
+
+3. Panggilan Fungsi
+
+- Memanggil fungsi validate_form() dengan argumen dari input pengguna.
+
+
+
+
+
+
+
+
+
+
+
 
