@@ -28,6 +28,5 @@
 
     print(txt.format(umur))
 
-  
-
-
+![Screenshot 2025-01-11 222251](https://github.com/user-attachments/assets/b665f9c5-6758-4f0c-92f0-d4426994bc1f)
+![Screenshot 2025-01-11 222257](https://github.com/user-attachments/assets/f95727bd-6c24-4710-abe1-b7dadda3ee41)
