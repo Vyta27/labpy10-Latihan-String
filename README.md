@@ -34,8 +34,12 @@
 # STUDI KASUS : Validasi Form Input
 Sebuah aplikasi pendaftaran online memerlukan validasi input. Anda
 diminta membuat program untuk memvalidasi data berikut:
+
 • Nama lengkap (harus hanya berisi huruf).
+
 • Nomor telepon (harus hanya berisi angka).
+
 • Email (harus mengandung karakter @ dan . ).
+
 • Jika semua validasi berhasil, tampilkan pesan: Data pendaftaran
 valid. Jika tidak, tampilkan pesan error untuk setiap kesalahan.
