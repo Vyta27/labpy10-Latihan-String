@@ -46,7 +46,8 @@ valid. Jika tidak, tampilkan pesan error untuk setiap kesalahan.
 
 ![Screenshot 2025-01-11 222019](https://github.com/user-attachments/assets/87e16306-bfb8-473d-b1b1-c89bd324e00d)
 
-1. Fungsi validate_form()
+1.  Fungsi     validate_form()
+   
 Fungsi ini menerima tiga parameter:
 
 nama: Nama lengkap yang harus berisi hanya huruf.
